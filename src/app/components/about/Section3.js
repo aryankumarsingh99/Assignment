@@ -56,7 +56,7 @@ const BackedBySection = () => {
 
 const Section = styled.section`
   padding: 7rem 5rem;
-  background: rgb(255 253 250); // Updated background color
+  background: rgb(255 253 250); /* Updated background color */
 `;
 
 const LogosWrapper = styled.div`
