@@ -17,14 +17,13 @@ export default function CustomerStories() {
             ></iframe>
             <Overlay>
               <p>
-                "I used Better three years ago for my primary residence and just
+                I used Better three years ago for my primary residence and just
                 now for my vacation home. Very simple process. Each time it took
-                about two weeks to close."
+                about two weeks to close.
               </p>
               <small>Paul – Better Mortgage customer</small>
             </Overlay>
           </VideoCard>
-          {/* Tabs under video */}
           <Tabs>
             <TabButton className="active">Paul</TabButton>
             <TabButton>Amanda</TabButton>
@@ -45,14 +44,12 @@ export default function CustomerStories() {
   );
 }
 
-/* ---------------- Styled Components ---------------- */
-
 const Container = styled.section`
   display: flex;
-  align-items: flex-start; // Align items to the top
+  align-items: flex-start;
   justify-content: center;
   padding: 120px 60px 60px 60px;
-  gap: 60px; // Reduced gap to bring right section closer to video
+  gap: 60px;
   flex-wrap: wrap;
   background: white;
   color: #111;
@@ -62,7 +59,7 @@ const HorizontalCenter = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 410px; // Increased gap between video and text section
+  gap: 410px;
   width: 100%;
 `;
 
@@ -75,7 +72,7 @@ const LeftSection = styled.div`
 const VideoCard = styled.div`
   position: relative;
   width: 340px;
-  height: 630px; // Increased height
+  height: 630px;
   border-radius: 15px;
   overflow: hidden;
   background: black;
@@ -127,8 +124,8 @@ const TabButton = styled.button`
     color: #0c6;
     border: 5px solid #004833;
     font-weight: bold;
-    border-radius: 40px; /* bigger border-radius only for Paul */
-    padding: 8px 22px; /* slightly larger than others */
+    border-radius: 40px;
+    padding: 8px 22px;
   }
 
   &:hover {
@@ -141,7 +138,7 @@ const TextSection = styled.div`
   max-width: 500px;
 
   h1 {
-    font-size: 80px; // Increased size
+    font-size: 80px;
     font-weight: 730;
     margin-bottom: 28px;
     line-height: 1.1;
@@ -152,7 +149,7 @@ const Button = styled.a`
   display: inline-block;
   background: #004b3c;
   color: white;
-  padding: 20px 48px; // Increased padding for bigger button
+  padding: 20px 48px;
   border-radius: 40px;
   text-decoration: none;
   font-size: 16px;

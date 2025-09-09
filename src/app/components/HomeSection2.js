@@ -8,7 +8,7 @@ export default function QuestionsSection() {
       {/* Header */}
       <Header>
         <Title>
-          Got questions? <br /> We've got answers
+          Got questions? <br /> We ve got answers
         </Title>
         <NavButtons>
           <NavButton className="active">Our products</NavButton>

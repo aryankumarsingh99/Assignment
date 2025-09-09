@@ -26,7 +26,7 @@ export default function Home() {
             {item}
             <Arrow>{openIndex === index ? "▲" : "▼"}</Arrow>
           </Question>
-          {openIndex === index && <Answer>Here is more information about "{item}".</Answer>}
+          {openIndex === index && <Answer>Here is more information about {item}.</Answer>}
           <Divider />
         </FaqItem>
       ))}
@@ -35,9 +35,9 @@ export default function Home() {
 }
 
 const Container = styled.div`
-  max-width: 1200px; // Further increased width
+  max-width: 1200px;
   margin: 40px auto;
-  padding: 0 48px; // Increased horizontal padding
+  padding: 0 48px;
 `;
 
 const FaqItem = styled.div`
@@ -45,7 +45,7 @@ const FaqItem = styled.div`
 `;
 
 const Question = styled.div`
-  font-size: 24px; // Increased question text size
+  font-size: 24px;
   font-weight: 600;
   padding: 16px 0;
   cursor: pointer;
@@ -64,7 +64,7 @@ const Divider = styled.hr`
 `;
 
 const Answer = styled.div`
-  font-size: 20px; // Increased answer text size
+  font-size: 20px;
   padding: 12px 0 20px;
   color: #555;
 `;

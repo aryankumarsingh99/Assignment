@@ -16,7 +16,7 @@ export default function Home() {
       </Paragraph>
       <Paragraph>
         A mortgage payment calculator shows how these variables come together to
-        shape a home's monthly payment.
+        shape a homes monthly payment.
       </Paragraph>
       <Paragraph>
         These tools are invaluable for comparing loan scenarios — and Better
