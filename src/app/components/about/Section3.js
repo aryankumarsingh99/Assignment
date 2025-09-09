@@ -9,7 +9,7 @@ const BackedBySection = () => {
       </h2>
       <LogosWrapper>
         
-        {/* SoftBank - inline SVG */}
+       
         <a href="https://group.softbank/en/philosophy" target="_blank" rel="noopener noreferrer">
           <svg fill="none" height="90" viewBox="0 0 154 90" width="154" xmlns="http://www.w3.org/2000/svg">
             <path d="M68.929 26.703h6.64v29.28h-6.64v-29.28Z" fill="#292B29"></path>
@@ -21,32 +21,32 @@ const BackedBySection = () => {
 
         {/* Ally */}
         <a href="https://www.ally.com" target="_blank" rel="noopener noreferrer">
-          <img src="/logos/ally.png" alt="Ally" className="h-12 object-contain" />
+          {/* <img src="/text.webp" alt="Ally" className="h-12 object-contain" /> */}
         </a>
 
-        {/* Citi */}
+ 
         <a href="https://www.citi.com" target="_blank" rel="noopener noreferrer">
-          <img src="/logos/citi.png" alt="Citi" className="h-12 object-contain" />
+          {/* <img src="/logos/citi.png" alt="Citi" className="h-12 object-contain" /> */}
         </a>
 
-        {/* Ping An Bank */}
+    
         <a href="https://bank.pingan.com/english/index.shtml" target="_blank" rel="noopener noreferrer">
-          <img src="/logos/pingan.png" alt="Ping An Bank" className="h-12 object-contain" />
+          {/* <img src="/logos/pingan.png" alt="Ping An Bank" className="h-12 object-contain" /> */}
         </a>
 
-        {/* Goldman Sachs */}
+   
         <a href="https://www.goldmansachs.com" target="_blank" rel="noopener noreferrer">
-          <img src="/logos/goldman-sachs.png" alt="Goldman Sachs" className="h-12 object-contain" />
+          {/* <img src="/logos/goldman-sachs.png" alt="Goldman Sachs" className="h-12 object-contain" /> */}
         </a>
 
-        {/* KPCB */}
+      
         <a href="https://www.kpcb.com" target="_blank" rel="noopener noreferrer">
-          <img src="/logos/kpcb.png" alt="KPCB" className="h-12 object-contain" />
+          {/* <img src="/logos/kpcb.png" alt="KPCB" className="h-12 object-contain" /> */}
         </a>
 
-        {/* American Express */}
+         
         <a href="https://www.americanexpress.com/" target="_blank" rel="noopener noreferrer">
-          <img src="/logos/american-express.png" alt="American Express" className="h-12 object-contain" />
+          {/* <img src="/logos/american-express.png" alt="American Express" className="h-12 object-contain" /> */}
         </a>
 
       </LogosWrapper>
@@ -65,7 +65,7 @@ const LogosWrapper = styled.div`
   display: flex;
   max-width: 1536px;
   flex-wrap: wrap;
-  justify-content: around;
+  justify-content: space-around; // Fixed value
   align-items: center;
   gap: 2rem;
 `;
